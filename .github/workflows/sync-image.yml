@@ -27,7 +27,7 @@ jobs:
 
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
-         skopeo copy docker://docker.io/infiniflow/ragflow:v0.17.2-slim docker://registry.cn-hangzhou.aliyuncs.com/boss_ai/ragflow:v0.17.2-slim
+         skopeo copy docker://docker.io/xprobe/xinference:latest docker://registry.cn-hangzhou.aliyuncs.com/boss_ai/xinference:latest
          
          
          
