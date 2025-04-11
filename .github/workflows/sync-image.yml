@@ -27,7 +27,7 @@ jobs:
 
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
-         skopeo copy docker://docker.io/xprobe/xinference:latest docker://registry.cn-hangzhou.aliyuncs.com/boss_ai/xinference:latest
+         skopeo copy docker://docker.io/paddlepaddle/paddle:2.5.2-gpu-cuda11.7-cudnn8 docker://registry.cn-hangzhou.aliyuncs.com/boss_ai/paddle:2.5.2-gpu-cuda11.7-cudnn8
          
          
          
