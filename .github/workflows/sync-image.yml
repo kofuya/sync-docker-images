@@ -27,7 +27,7 @@ jobs:
 
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
-         skopeo copy docker://ghcr.io/ggml-org/llama.cpp:full-cuda docker://registry.cn-hangzhou.aliyuncs.com/boss_ai/llama.cpp:full-cuda
+         skopeo copy docker://docker.io/qwenllm/qwenvl:2.5-cu121 docker://registry.cn-hangzhou.aliyuncs.com/boss_ai/qwenvl:2.5-cu121
          
          
          
