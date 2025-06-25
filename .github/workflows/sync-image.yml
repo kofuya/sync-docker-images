@@ -27,7 +27,7 @@ jobs:
 
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
-         skopeo copy docker://docker.io/infiniflow/sandbox-base-nodejs:latest docker://registry.cn-hangzhou.aliyuncs.com/boss_ai/sandbox-base-nodejs:latest
+         skopeo copy docker://docker.io/infiniflow/sandbox-base-python:latest docker://registry.cn-hangzhou.aliyuncs.com/boss_ai/sandbox-base-python:latest
          
          
          
